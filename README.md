@@ -3,14 +3,15 @@
 This is Address Book.  Address Book is a web application for managing
 your personal address book.  It manages phone numbers, birthdays, addresses, 
 and more.
+My intention is to make this project:
+- sqlite3 compliant (zeroconf!)
+- add support for addresses outside US ;-)
 
 ## Setup
 * gem install rails
 * rake gems:install
-* Copy config/database.yml.template to config/database.yml and configure your database
 * Copy config/app_config.rb.template to config/app_config.rb and setup your preferences
 * rake db:migrate
-
 
 ## Description
 Addressbook consists of 4 main sections:
